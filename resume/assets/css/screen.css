@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-color: #ffe;
-    color: #026;
+    background-color: #fdf6e3;
+    color: #073642;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -13,17 +13,17 @@ body {
 }
 
 a:link, a:visited {
-    color: #369;
+    color: #268bd2;
     text-decoration: none;
 }
 
 a:hover {
-    color: #d35;
+    color: #cb4b16;
     text-decoration: underline;
 }
 
 a:active {
-    color: #fc0;
+    color: #b58900;
     text-decoration: underline;
 }
 
@@ -51,14 +51,13 @@ section + section {
 
 section.box {
     background-color: #fff;
-    box-shadow: 2px 2px 3px 1px #998;
-    color: #222;
+    box-shadow: 2px 2px 3px 1px #93a1a1;
     padding: 1.5rem;
     position: relative;
 }
 
 section.box h2 {
-    background-color: #369;
+    background-color: #268bd2;
     color: #fff;
     font-size: 2.4rem;
     line-height: 3.2rem;
