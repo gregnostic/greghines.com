@@ -222,9 +222,7 @@ section.box h2 {
  * Responsive Styles
  */
 
-@media (max-width: 767px),
-    only screen and (max-device-width: 736px) and (orientation: portrait),
-    only screen and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 767px), only screen and (max-device-width: 480px) and (orientation: portrait) {
     #left {
         margin: 2rem 0 0;
     }
@@ -274,7 +272,7 @@ section.box h2 {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px), only screen and (min-device-width: 480px) and (orientation: landscape) {
     body {
         display: grid;
         grid-column-gap: 2rem;
