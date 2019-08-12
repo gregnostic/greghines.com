@@ -222,7 +222,9 @@ section.box h2 {
  * Responsive Styles
  */
 
-@media (max-width: 767px) {
+@media (max-width: 767px),
+    only screen and (max-device-width: 736px) and (orientation: portrait),
+    only screen and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
     #left {
         margin: 2rem 0 0;
     }
