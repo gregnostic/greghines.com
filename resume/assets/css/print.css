@@ -1,0 +1,19 @@
+@media print {
+    @page {
+        margin: 0.5in;
+        margin: 0.5in;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* TODO: Don't break within `.experience li` elements. */
+
+    #download,
+    .print-mode {
+        display: none;
+    }
+}

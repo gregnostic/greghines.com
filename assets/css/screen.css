@@ -1,0 +1,146 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffe;
+    color: #026;
+    font-family: 'Roboto', serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+a:link, a:visited {
+    color: #369;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d35;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fc0;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+#photo {
+    border: 0.6rem double #026;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 1px #998;
+    display: block;
+    height: 20rem;
+    margin: 0 auto 1.5rem;
+    width: 20rem;
+}
+
+#name {
+    font-size: 6rem;
+    line-height: 6rem;
+    margin: 2.5rem auto;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contact dl {
+    display: grid;
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 0.5rem;
+    grid-template-columns: 2.4rem minmax(min-content, max-content);
+    font-size: 2rem;
+    justify-content: center;
+    line-height: 2.4rem;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+#contact dt {
+    margin: 0;
+    padding: 0;
+}
+
+#contact dd {
+    margin: 0;
+    padding: 0;
+}
+
+#contact address {
+    font-style: normal;
+}
+
+#contact .icon {
+    border: none;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    width: 2.4rem;
+}
+
+#abstract {
+    margin: 2rem 0 2.5rem;
+    padding: 0 1.5rem;
+}
+
+#abstract p {
+    margin: 0;
+    padding: 0;
+}
+
+#social-media {
+    display: grid;
+    grid-auto-columns: minmax(min-content, max-content);
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#social-media li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social-media li a,
+#social-media li img {
+    display: block;
+    height: 4.8rem;
+    line-height: 4.8rem;
+    width: 4.8rem;
+}
