@@ -171,7 +171,7 @@ section.box h2 {
     font-weight: 400;
     grid-column: 3 / 4;
     grid-row: 1 / span 2;
-    padding-top: 1.4rem;
+    padding-top: 0.8rem;
     white-space: nowrap;
 }
 

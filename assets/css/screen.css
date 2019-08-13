@@ -60,9 +60,9 @@ figcaption {
     border-radius: 50%;
     box-shadow: 2px 2px 3px 1px #93a1a1;
     display: block;
-    height: 20rem;
+    height: 21.6rem;
     margin: 0 auto 1.5rem;
-    width: 20rem;
+    width: 21.6rem;
 }
 
 #name {
@@ -117,6 +117,10 @@ figcaption {
 #abstract p {
     margin: 0;
     padding: 0;
+}
+
+#links {
+    margin-top: 4.5rem;
 }
 
 #social-media {
