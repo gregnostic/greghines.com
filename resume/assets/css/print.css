@@ -32,7 +32,7 @@ h1 {
 h2 {
     break-after: avoid;
     font: 400 16pt/16pt 'Roboto Condensed', sans-serif;
-    margin: 10pt 0;
+    margin: 20pt 0 10pt;
     padding: 0;
     text-align: center;
     text-transform: uppercase;
@@ -65,21 +65,26 @@ section + section {
 
 header {
     display: grid;
-    grid-row-gap: 12pt;
-    grid-template-columns: 240pt 240pt;
+    grid-template-columns: 1fr 1fr auto;
     justify-content: center;
 }
 
 #name {
+    font-size: 36pt;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    text-align: center;
+    line-height: 32pt;
+    padding-right: 20pt;
+    text-align: left;
     text-transform: uppercase;
 }
 
 #contact {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    align-content: top;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-right: 20pt;
+    padding-top: 2pt;
 }
 
 #contact dl {
@@ -87,12 +92,11 @@ header {
     grid-column-gap: 4pt;
     grid-row-gap: 2pt;
     grid-template-columns: 12pt minmax(min-content, max-content);
-    font-size: 12pt;
-    justify-content: center;
-    line-height: 12pt;
+    font-size: 10pt;
+    justify-content: left;
+    line-height: 10pt;
     margin: 0 auto;
     padding: 0;
-    position: relative;
     white-space: nowrap;
 }
 
@@ -113,10 +117,11 @@ header {
 }
 
 #abstract {
+    align-content: top;
     display: grid;
-    align-content: center;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
+    font: 400 10pt/12pt 'Roboto Condensed', sans-serif;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
     margin: 0;
 }
 
