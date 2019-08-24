@@ -62,6 +62,7 @@ section + section {
 }
 
 header {
+    align-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr auto;
     justify-content: center;
@@ -78,7 +79,8 @@ header {
 }
 
 #contact {
-    align-content: top;
+    align-content: center;
+    display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     padding-right: 20pt;
@@ -115,6 +117,8 @@ header {
 }
 
 #abstract {
+    align-content: center;
+    display: grid;
     font: 400 10pt/12pt 'Roboto Condensed', sans-serif;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
@@ -194,6 +198,7 @@ header {
 }
 
 #left {
+    break-inside: avoid;
     display: grid;
     margin-top: 18pt;
 }
