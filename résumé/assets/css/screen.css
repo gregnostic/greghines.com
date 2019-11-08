@@ -248,8 +248,8 @@ header {
 
 @media (min-width: 768px) {
     body {
-        margin: 0 auto;
-        max-width: 80rem;
+        margin: 1rem auto;
+        max-width: 84rem;
     }
 
     header {
