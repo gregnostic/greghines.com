@@ -119,6 +119,10 @@ header {
     font-style: normal;
 }
 
+#download {
+    display: none;
+}
+
 .experience-list {
     margin: 0;
     padding: 0;
