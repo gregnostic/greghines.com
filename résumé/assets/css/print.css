@@ -17,7 +17,7 @@ body {
 
 a {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1 {
@@ -190,6 +190,12 @@ header {
 .experience-list .description ul {
     margin-left: 0;
     padding-left: 16pt;
+}
+
+.experience-list .description li {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
 }
 
 #bottom {

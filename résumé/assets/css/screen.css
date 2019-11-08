@@ -201,6 +201,12 @@ header {
     padding-left: 2rem;
 }
 
+.experience-list .description li {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
 #skills ul {
     margin: 0;
     padding: 0;
