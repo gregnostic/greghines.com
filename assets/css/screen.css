@@ -82,7 +82,7 @@ figcaption {
     grid-column-gap: 0.8rem;
     grid-row-gap: 1rem;
     grid-template-columns: 2.4rem minmax(min-content, max-content);
-    font-size: 2rem;
+    font-size: 2.4rem;
     justify-content: center;
     line-height: 2.4rem;
     margin: 0 auto;
