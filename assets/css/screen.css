@@ -5,14 +5,16 @@ html {
 body {
     background-color: #fdf6e3;
     color: #073642;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DIN Pro Condensed', sans-serif;
     font-size: 1.6rem;
+    font-weight: 700;
     line-height: 2.2rem;
     margin: 0;
     padding: 3.5rem;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #268bd2;
     text-decoration: none;
 }
@@ -27,16 +29,17 @@ a:active {
     text-decoration: underline;
 }
 
-h1, h2 {
-    font-family: 'Roboto Condensed', sans-serif;
+h1,
+h2 {
+    font-family: 'DIN Pro Condensed', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'DIN Pro Condensed', sans-serif;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 2rem;
 }
 
@@ -45,7 +48,7 @@ section {
     padding: 0;
 }
 
-section + section {
+section+section {
     margin-top: 3.5rem;
 }
 

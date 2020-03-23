@@ -7,12 +7,13 @@ body {
     color: #073642;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 2.8rem;
     margin: 0;
     padding: 1.5rem;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #268bd2;
     text-decoration: none;
 }
@@ -27,17 +28,18 @@ a:active {
     text-decoration: underline;
 }
 
-h1, h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+h1,
+h2 {
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 2rem;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
 }
 
 section {
@@ -56,8 +58,10 @@ section.box {
 section.box h2 {
     background-color: #268bd2;
     color: #fff;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
     margin: -1.5rem -1.5rem 1.5rem;
     padding: 0.5rem 1.5rem;
     position: relative;
@@ -72,13 +76,11 @@ section.box h2 {
     width: 2.4rem;
 }
 
-header {
-
-}
+header {}
 
 #name {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 8rem;
+    line-height: 8rem;
     margin: 0 auto 2.5rem;
     padding: 0;
     text-align: center;
@@ -86,13 +88,15 @@ header {
 }
 
 #contact {
-
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 #contact dl {
     column-gap: 0.8rem;
     display: grid;
-    font-size: 2rem;
+    font-size: 2.4rem;
     grid-template-columns: 2.4rem minmax(min-content, max-content);
     justify-content: center;
     line-height: 2.4rem;
@@ -118,20 +122,22 @@ header {
 }
 
 #download {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2rem;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2.4rem;
     font-weight: 700;
+    line-height: 2.4rem;
     margin: 2rem 0 2.4rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .experience h3 {
-    font-size: 2rem;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2.8rem;
     font-weight: 700;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    line-height: 2rem;
+    line-height: 2.8rem;
     margin: 0;
     padding: 0;
     white-space: nowrap;
@@ -142,7 +148,7 @@ header {
     padding: 0;
 }
 
-.experience-list > li {
+.experience-list>li {
     column-gap: 0;
     display: grid;
     grid-auto-rows: minmax(min-content, max-content);
@@ -154,37 +160,41 @@ header {
     row-gap: 0;
 }
 
-.experience-list > li + li {
+.experience-list>li+li {
     margin-top: 2.5rem;
 }
 
-.experience-list .employer {
-
-}
+.experience-list .employer {}
 
 .experience-list .title {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2rem;
     font-style: italic;
     font-weight: 400;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    line-height: 2.8rem;
     white-space: nowrap;
 }
 
 .experience-list .period {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    line-height: 2.8rem;
     text-align: right;
     white-space: nowrap;
 }
 
 .experience-list .location {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-size: 2rem;
     font-weight: 400;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    line-height: 2.8rem;
     text-align: right;
     white-space: nowrap;
 }
@@ -200,8 +210,8 @@ header {
     padding: 0;
 }
 
-.experience-list .description p + p,
-.experience-list .description p + ul {
+.experience-list .description p+p,
+.experience-list .description p+ul {
     margin-top: 1rem;
 }
 
@@ -236,6 +246,8 @@ header {
 }
 
 #skills h3 {
+    font-family: 'DIN Pro Condensed', sans-serif;
+    font-weight: 700;
     margin: 1rem 0;
     padding: 0;
 }
@@ -251,6 +263,7 @@ header {
     text-align: center;
 }
 
+
 /**
  * Responsive Styles
  */
@@ -260,47 +273,42 @@ header {
         margin: 1rem auto;
         max-width: 84rem;
     }
-
     header {
         display: grid;
         grid-auto-rows: minmax(min-content, max-content);
         grid-auto-columns: minmax(min-content, max-content);
         justify-content: space-between;
     }
-
     #name {
-        font-size: 5rem;
+        font-size: 6rem;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         line-height: 6rem;
         margin: 0;
         padding: 0;
     }
-
     #contact {
         grid-column: 3 / 4;
         grid-row: 1 / 3;
     }
-
     #download {
+        font-size: 2.4rem;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+        line-height: 2.4rem;
         margin: 0;
         text-align: left;
     }
-
     #bottom {
         column-gap: 2rem;
         display: grid;
         grid-auto-columns: 3fr 2fr;
         justify-content: space-between;
     }
-
     #skills {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
-
     #education {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
