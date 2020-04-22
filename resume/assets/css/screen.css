@@ -232,17 +232,29 @@ header {}
 }
 
 #skills li {
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 0;
 }
 
 #skills li::after {
-    content: ', ';
+    content: '; ';
 }
 
 #skills li:last-child::after {
     content: none;
+}
+
+#skills ul ul {
+    display: inline;
+}
+
+#skills ul ul::after {
+    content: ')';
+}
+
+#skills ul ul::before {
+    content: '(';
 }
 
 #skills h3 {
@@ -250,6 +262,7 @@ header {}
     font-weight: 700;
     margin: 1rem 0;
     padding: 0;
+    text-align: center;
 }
 
 .school-name {
@@ -273,12 +286,14 @@ header {}
         margin: 1rem auto;
         max-width: 84rem;
     }
+
     header {
         display: grid;
         grid-auto-rows: minmax(min-content, max-content);
         grid-auto-columns: minmax(min-content, max-content);
         justify-content: space-between;
     }
+
     #name {
         font-size: 6rem;
         grid-column: 1 / 2;
@@ -287,10 +302,12 @@ header {}
         margin: 0;
         padding: 0;
     }
+
     #contact {
         grid-column: 3 / 4;
         grid-row: 1 / 3;
     }
+
     #download {
         font-size: 2.4rem;
         grid-column: 1 / 2;
@@ -299,16 +316,19 @@ header {}
         margin: 0;
         text-align: left;
     }
+
     #bottom {
         column-gap: 2rem;
         display: grid;
-        grid-auto-columns: 3fr 2fr;
+        grid-auto-columns: 2fr 1fr;
         justify-content: space-between;
     }
+
     #skills {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
+
     #education {
         grid-column: 2 / 3;
         grid-row: 1 / 2;

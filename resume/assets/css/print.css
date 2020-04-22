@@ -33,7 +33,7 @@ h2 {
     border-bottom: 1px solid #000;
     break-after: avoid;
     font: 700 18pt/18pt 'DIN Pro Condensed', sans-serif;
-    margin: 20pt 0 20pt;
+    margin: 16pt 0 16pt;
     padding: 0 0 3pt;
     text-align: center;
     text-transform: uppercase;
@@ -205,7 +205,7 @@ header {
     break-inside: avoid;
     column-gap: 32pt;
     display: grid;
-    grid-auto-columns: 3fr 2fr;
+    grid-auto-columns: 2fr 1fr;
     justify-content: space-between;
 }
 
@@ -222,22 +222,35 @@ header {
 }
 
 #skills li {
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 0;
 }
 
 #skills li::after {
-    content: ', ';
+    content: '; ';
 }
 
 #skills li:last-child::after {
     content: none;
 }
 
+#skills ul ul {
+    display: inline;
+}
+
+#skills ul ul::after {
+    content: ')';
+}
+
+#skills ul ul::before {
+    content: '(';
+}
+
 #skills h3 {
-    margin: 1rem 0;
+    margin: 16pt 0 12pt;
     padding: 0;
+    text-align: center;
 }
 
 #development-skills {
