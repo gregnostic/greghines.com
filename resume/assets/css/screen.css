@@ -50,21 +50,24 @@ section {
 
 section.box {
     background-color: #fff;
-    box-shadow: 2px 2px 3px 1px #93a1a1;
+    border-radius: 1rem;
+    box-shadow: 0.125rem 0.125rem 0.75rem 1px #93a1a1;
     margin-top: 2rem;
-    padding: 1.5rem;
+    padding: 2.5rem;
     position: relative;
 }
 
 section.box h2 {
     background-color: #268bd2;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     color: #fff;
     font-family: 'DIN Pro Condensed', sans-serif;
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 3.6rem;
-    margin: -1.5rem -1.5rem 1.5rem;
-    padding: 0.5rem 1.5rem;
+    margin: -2.5rem -2.5rem 2.5rem;
+    padding: 0.5rem 2.5rem;
     position: relative;
     text-align: center;
     text-transform: uppercase;
@@ -149,7 +152,7 @@ header {}
     padding: 0;
 }
 
-.experience-list>li {
+.experience-list > li {
     column-gap: 0;
     display: grid;
     grid-auto-rows: minmax(min-content, max-content);
@@ -161,8 +164,8 @@ header {}
     row-gap: 0;
 }
 
-.experience-list>li+li {
-    margin-top: 2.5rem;
+.experience-list > li + li {
+    margin-top: 4rem;
 }
 
 .experience-list .employer {}
@@ -175,6 +178,7 @@ header {}
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     line-height: 2.8rem;
+    padding-top: 0.75rem;
     white-space: nowrap;
 }
 
@@ -196,6 +200,7 @@ header {}
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     line-height: 2.8rem;
+    padding-top: 0.75rem;
     text-align: right;
     white-space: nowrap;
 }
