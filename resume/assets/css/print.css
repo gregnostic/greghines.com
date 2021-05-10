@@ -227,6 +227,17 @@ header {
     padding: 0;
 }
 
+#skills ul li {
+    font-weight: 700;
+}
+
+#skills ul ul li,
+#skills li::after,
+#skills ul ul,
+#skills ul ul li {
+    font-weight: 400;
+}
+
 #skills li::after {
     content: '; ';
 }
@@ -237,6 +248,7 @@ header {
 
 #skills ul ul {
     display: inline;
+    font-style: italic;
 }
 
 #skills ul ul::after {
