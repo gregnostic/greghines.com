@@ -232,6 +232,10 @@ header {}
     padding: 0;
 }
 
+.experience-list .description li + li {
+    padding-top: 0.5rem;
+}
+
 #skills ul {
     margin: 0;
     padding: 0;
